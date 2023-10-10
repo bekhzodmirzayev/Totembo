@@ -1,0 +1,327 @@
+@media(max-width: 1120px){
+    .istoriy__item{
+        height: 400px;
+    }
+    .istoriy__btn{
+        font-size:  18px;
+        padding: 9px 25px;
+    }
+    .istoriy__title{
+        width: 380px;
+        font-size: 18px;
+    }
+    .istoriy__text{
+        font-size: 15px;
+    }
+    .istoriy__form{
+        margin-top: 40px;
+        font-size: 15px;
+    }
+}
+@media(max-width: 970px){
+    .nav__link{
+        font-size: 14px;
+        
+    }
+    .navbar__list{
+        gap: 15px;
+    }
+    .nav__form{
+        display: flex;
+        justify-content: space-between;
+    }
+    .header__content{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 10px;
+    }
+    .header__item{
+        padding: 15px 0px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .header__item:nth-of-type(1){
+        grid-column: span 3;
+        grid-row: span 1;
+    }
+    .header__item:nth-of-type(2){
+        grid-column: span 3;
+        grid-row: span 1;
+
+    }
+    .header__item:nth-of-type(3){
+        grid-column: span 3;
+        grid-row: span 1;
+    }
+    .collection__content{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6,1fr);
+    }
+    .istoriy__btn{
+        font-size:  15px;
+        padding: 6px 20px;
+        font-weight: bold;
+    }
+    .istoriy__title{
+        width: 300px;
+        font-size: 14px;
+    }
+    .istoriy__text{
+        font-size: 13px;
+    }
+    .istoriy__form{
+        margin-top: 30px;
+        font-size: 13px;
+    }
+}
+@media(max-width: 870px){   
+    .nav__content{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav__form{
+        display: none;
+    }
+    .collections__item{
+        height: 385px;
+    }
+    .child__text{
+        font-size: 10px;
+        padding: 10px 28px;
+    }
+    .collections__text{
+        font-size: 15px;
+    }
+    .collections__title{
+        font-size: 15px;
+    }
+    .collections__sena{
+        font-size: 15px;
+    }
+    .istoriy__content{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        row-gap: 10px;
+    }
+    .istoriy__item{
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    .footer__section{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 20px;
+    }
+    .footer__list:nth-of-type(1){
+        grid-column: span 1;
+    }
+    .footer__list:nth-of-type(21){
+        grid-column: span 1;
+    }
+    .footer__list:nth-of-type(3){
+        grid-column: span 2;
+        grid-row: span ;
+    }
+    .footer__title{
+        font-size: 20px;
+    }
+    .footer__link{
+        font-size: 15px;
+    }
+}
+@media(max-width: 630px){
+    .menyu__btn{
+        display: inline;
+        order: 1;
+    }
+    .nav__content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .navbar__list{
+        position: fixed;
+        background: #fff;
+        z-index: 999;
+        flex-direction: column;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        justify-content: flex-start;
+        padding: 30px;
+        box-shadow: -11px 0px 20px 0px rgba(0, 0, 0, 0.5);
+        transition: 0.3s;
+        transform: translateX(110%);
+    }
+    .nav__form{
+        display: flex;
+        gap: 20px;
+    }
+    .menyu__btn:focus+.navbar__list{
+        transform: translateX(0);
+    }
+    .collection__content{
+        display: flex;
+        overflow-x: scroll;
+        justify-content: space-between;
+        column-gap: 10px;
+        padding-bottom: 10px;
+    }
+    .collections__text{
+        font-size: 10px;
+    }
+    .collections__title{
+        font-size: 10px;
+    }
+    .collections__sena{
+        font-size: 10px;
+    }
+    .child__text{
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+    .collections__child{
+        left: 10px;
+    }
+    .child__icons{
+        top: 5px;
+        right: 5px;
+        gap: 5px;
+    }
+    .icons__img{
+        width: 30px;
+        height: 30px;
+    }
+}
+@media(max-width: 500px){
+    .nav__form{
+        display: none;
+    }
+    .header__content{
+        display: flex;
+        justify-content: space-between;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+        height: 250px;
+
+    }
+    .header__item{
+        width: 500px;
+        height: 200px;
+
+    }
+    .header__item img{
+        width: 200px;
+        height: 150px;
+    }
+    .info-section{
+        gap: 10px;
+    }
+    .item__text{
+        font-size: 10px;
+    }
+    .item__title{
+        font-size: 12px;
+    }
+    .item__sena{
+        font-size: 10px;
+    }
+    .main__title{
+        font-size: 20px;
+    }
+    .collections__item{
+        height: 300px;
+        gap: 1px;
+        padding: 5px 0px;
+    }
+    .collections__child{
+        left: 2px;
+    }
+    
+    .istoriy__item{
+        margin-top: 15px;
+        height: 200px;
+    }
+    .istoriy__btn{
+        font-size: 10px;
+        top: 10px;
+        left: 10px;
+    }
+    .istoriy__title{
+        width: 190px;
+        font-size: 10px;
+        margin-top: 45px;
+    }
+    .istoriy__text{
+        font-size: 8px;
+        margin-top: 5px;
+    }
+    .istoriy__form{
+        margin-top: 10px;
+    }
+    .footer__section{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        justify-content: center;
+    }
+    .footer__list{
+        text-align: center;
+    }
+    .footer__list:nth-of-type(1){
+        grid-column-start: 1;
+        grid-column-end: 3;
+        
+    }
+    .footer__list:nth-of-type(2){
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .footer__list:nth-of-type(3){
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .footer__title{
+        font-size: 15px;
+    }
+    .footer__link{
+        font-size: 12px;
+    }
+    .footer__text{
+        font-size: 12px;
+        text-align: center;
+    }
+    .footer__icons{
+        justify-content: center;
+    }
+}
+@media(max-width: 320px){
+    .header__content{
+        height: 180px;
+    }
+    .header__item{
+        width: 350px;
+        height: 135px;
+    }
+    .header__item img{
+        width: 180px;
+        height: 130px;
+    }
+    .item__text{
+        font-size: 7px;
+    }
+    .item__title{
+        font-size: 10px;
+    }
+    .item__sena{
+        font-size: 7px;
+    }
+    .istoriy__title{
+        margin-left: 20px;
+    }
+    .istoriy__text{
+        margin-left: 20px;
+    }
+    .istoriy__form{
+        margin-left: 25px;
+    }
+}
